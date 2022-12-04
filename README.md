@@ -1,26 +1,27 @@
 # fifth-week-homework
-
+Not bölümü için silme ve düzenleme eklendi.
+• Eğer item düzenleme ile gelindiyse ilgili not update edilmelidir. ( Notu düzenlemek için tableviewdan seçmelisiniz. )
 ## 1- Breaking Bad api uygulamamıza persistant özelliği kazandıracağız.
 
-### Uygulamamıza Yeni bir tab ekleyeceğiz: Notlar
+### Uygulamamıza Yeni bir tab ekleyeceğiz: Notlar✅
 
-• Ekranda bölümlerden aldığımız notların listesi olacak.
+• Ekranda bölümlerden aldığımız notların listesi olacak.✅
 
-• Listeden sola kaydırarak eleman silebilmeliyiz.
+• Listeden sola kaydırarak eleman silebilmeliyiz.✅
 
-• Floating button şeklinde ekle butonumuz olacak.
+• Floating button şeklinde ekle butonumuz olacak.✅
 
-• Ekle butonuna bastığımızda ekle/düzenle ekranı present edilecek. Boş bilgiler
+• Ekle butonuna bastığımızda ekle/düzenle ekranı present edilecek. Boş bilgiler✅
 
-• Listeden item seçtiğimizde ekle/düzenle ekranı present edilecek. Seçtiğimiz item bilgileri ile.
+• Listeden item seçtiğimizde ekle/düzenle ekranı present edilecek. Seçtiğimiz item bilgileri ile.✅
 
 ### Ekleme/Düzenleme Ekranı
 
-• Ekleme ekranında sezon, bölüm bilgisi girip notumuzu yazacağız.
+• Ekleme ekranında sezon, bölüm bilgisi girip notumuzu yazacağız.✅
 
-• Ekleme ekranındaki kaydet butonu ile CoreData üzerinde kayıt edeceğiz.
+• Ekleme ekranındaki kaydet butonu ile CoreData üzerinde kayıt edeceğiz.✅
 
-• Eğer item düzenleme ile gelindiyse ilgili not update edilmelidir.
+• Eğer item düzenleme ile gelindiyse ilgili not update edilmelidir.✅
 
 
 ### 2- Clean Code - 5, 6, 7, 8 chapterlar özetlenmelidir.

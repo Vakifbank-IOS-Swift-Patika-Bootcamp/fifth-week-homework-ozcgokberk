@@ -31,8 +31,8 @@ class EpisodeView: UIView, UITableViewDelegate, UITableViewDataSource {
         self.delegate?.closeButtonPressed()
     }
     private func setup() {
-        
-//        myTableView.delegate = self
+
+        myTableView.delegate = self
         myTableView.dataSource = self
         myTableView.register(EpisodeCastTableViewCell.cellNib, forCellReuseIdentifier:EpisodeCastTableViewCell.id )
         

@@ -3,18 +3,18 @@
    version = "1.0">
    <ContextStates>
       <ContextState
-         contextName = "CastListViewController.viewDidLoad():CastListViewController.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "cast">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
          contextName = "EpisodesViewController.tableView(_:didSelectRowAt:):EpisodesViewController.swift">
          <PersistentStrings>
             <PersistentString
                value = "castArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in QuotesViewController.viewDidLoad():QuotesViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "quotes">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -31,6 +31,28 @@
          <PersistentStrings>
             <PersistentString
                value = "reponse.result">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NotesViewController.tableView(_:didSelectRowAt:):NotesViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "v">
+            </PersistentString>
+            <PersistentString
+               value = "notes[indexPath.row].id">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AddOrUpdateVC.doneButtonPressed(_:):AddOrUpdateVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "seasonTxtField.text">
+            </PersistentString>
+            <PersistentString
+               value = "episodeTxtField.text">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -57,15 +79,15 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "closure #1 in static Client.taskForGETRequest&lt;&#x3c4;_0_0&gt;(url:responseType:completion:):Client.swift">
-      </ContextState>
-      <ContextState
-         contextName = "closure #1 in QuotesViewController.viewDidLoad():QuotesViewController.swift">
+         contextName = "CastListViewController.viewDidLoad():CastListViewController.swift">
          <PersistentStrings>
             <PersistentString
-               value = "quotes">
+               value = "cast">
             </PersistentString>
          </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in static Client.taskForGETRequest&lt;&#x3c4;_0_0&gt;(url:responseType:completion:):Client.swift">
       </ContextState>
    </ContextStates>
 </VariablesViewState>

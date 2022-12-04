@@ -19,6 +19,12 @@
 		2032A4E1292EB2100051966B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2032A4DF292EB2100051966B /* LaunchScreen.storyboard */; };
 		2032A4EB292EC12B0051966B /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2032A4EA292EC12B0051966B /* Client.swift */; };
 		2032A4ED292EC1410051966B /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2032A4EC292EC1410051966B /* BaseResponse.swift */; };
+		203F295C29378359007FB4A9 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203F295B29378359007FB4A9 /* NotesViewController.swift */; };
+		203F296329378BAD007FB4A9 /* NotesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203F296129378BAD007FB4A9 /* NotesTableViewCell.swift */; };
+		203F296429378BAD007FB4A9 /* NotesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 203F296229378BAD007FB4A9 /* NotesTableViewCell.xib */; };
+		203F2967293793B4007FB4A9 /* Data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 203F2965293793B4007FB4A9 /* Data.xcdatamodeld */; };
+		203F298D29379515007FB4A9 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203F298C29379515007FB4A9 /* CoreDataManager.swift */; };
+		203F298F2939326E007FB4A9 /* AddOrUpdateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203F298E2939326E007FB4A9 /* AddOrUpdateVC.swift */; };
 		20A0843B292EC337009FFA2B /* CastListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A0843A292EC337009FFA2B /* CastListViewController.swift */; };
 		20A0843E292EC35C009FFA2B /* EpisodesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A0843D292EC35C009FFA2B /* EpisodesViewController.swift */; };
 		20A08440292EC381009FFA2B /* IMDBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A0843F292EC381009FFA2B /* IMDBViewController.swift */; };
@@ -50,6 +56,12 @@
 		2032A4E2292EB2100051966B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2032A4EA292EC12B0051966B /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		2032A4EC292EC1410051966B /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		203F295B29378359007FB4A9 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		203F296129378BAD007FB4A9 /* NotesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTableViewCell.swift; sourceTree = "<group>"; };
+		203F296229378BAD007FB4A9 /* NotesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotesTableViewCell.xib; sourceTree = "<group>"; };
+		203F2966293793B4007FB4A9 /* Data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Data.xcdatamodel; sourceTree = "<group>"; };
+		203F298C29379515007FB4A9 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		203F298E2939326E007FB4A9 /* AddOrUpdateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrUpdateVC.swift; sourceTree = "<group>"; };
 		20A0843A292EC337009FFA2B /* CastListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastListViewController.swift; sourceTree = "<group>"; };
 		20A0843D292EC35C009FFA2B /* EpisodesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesViewController.swift; sourceTree = "<group>"; };
 		20A0843F292EC381009FFA2B /* IMDBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMDBViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +124,7 @@
 				2032A4EE292EC2310051966B /* Controller */,
 				20A08439292EC2AA009FFA2B /* View */,
 				2032A4F0292EC24C0051966B /* Model */,
+				203F2968293793C8007FB4A9 /* CoreData */,
 				2032A4E2292EB2100051966B /* Info.plist */,
 			);
 			path = BreakingBadHw;
@@ -147,6 +160,8 @@
 				20A0843D292EC35C009FFA2B /* EpisodesViewController.swift */,
 				20A0843F292EC381009FFA2B /* IMDBViewController.swift */,
 				20A0845B29301CFC009FFA2B /* QuotesViewController.swift */,
+				203F295B29378359007FB4A9 /* NotesViewController.swift */,
+				203F298E2939326E007FB4A9 /* AddOrUpdateVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -157,8 +172,17 @@
 				20A08443292EC414009FFA2B /* CastModel.swift */,
 				20A08447292EC462009FFA2B /* EpisodesModel.swift */,
 				20A0845929301C70009FFA2B /* QuotesModel.swift */,
+				203F298C29379515007FB4A9 /* CoreDataManager.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		203F2968293793C8007FB4A9 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				203F2965293793B4007FB4A9 /* Data.xcdatamodeld */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 		20A08439292EC2AA009FFA2B /* View */ = {
@@ -172,6 +196,8 @@
 				20A084632930F5D4009FFA2B /* EpisodeView.xib */,
 				200722D82933BC3200A32AD4 /* EpisodeCastTableViewCell.swift */,
 				200722D92933BC3200A32AD4 /* EpisodeCastTableViewCell.xib */,
+				203F296129378BAD007FB4A9 /* NotesTableViewCell.swift */,
+				203F296229378BAD007FB4A9 /* NotesTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -248,6 +274,7 @@
 				20A0844F292ED1D2009FFA2B /* CastCollectionViewCell.xib in Resources */,
 				2032A4DE292EB2100051966B /* Assets.xcassets in Resources */,
 				200722DB2933BC3200A32AD4 /* EpisodeCastTableViewCell.xib in Resources */,
+				203F296429378BAD007FB4A9 /* NotesTableViewCell.xib in Resources */,
 				20A08456292FFE86009FFA2B /* EpisodeTableViewCell.xib in Resources */,
 				2032A4DC292EB20E0051966B /* Main.storyboard in Resources */,
 			);
@@ -263,18 +290,23 @@
 				20A084662930FD92009FFA2B /* EpisodeView.swift in Sources */,
 				2032A4ED292EC1410051966B /* BaseResponse.swift in Sources */,
 				20A0844E292ED1D2009FFA2B /* CastCollectionViewCell.swift in Sources */,
+				203F296329378BAD007FB4A9 /* NotesTableViewCell.swift in Sources */,
 				2032A4D9292EB20E0051966B /* BaseViewController.swift in Sources */,
 				20A0843E292EC35C009FFA2B /* EpisodesViewController.swift in Sources */,
 				200722DA2933BC3200A32AD4 /* EpisodeCastTableViewCell.swift in Sources */,
+				203F298D29379515007FB4A9 /* CoreDataManager.swift in Sources */,
 				20A08448292EC462009FFA2B /* EpisodesModel.swift in Sources */,
 				2032A4D5292EB20E0051966B /* AppDelegate.swift in Sources */,
+				203F295C29378359007FB4A9 /* NotesViewController.swift in Sources */,
 				20A0845A29301C70009FFA2B /* QuotesModel.swift in Sources */,
 				20A0845C29301CFC009FFA2B /* QuotesViewController.swift in Sources */,
 				2032A4EB292EC12B0051966B /* Client.swift in Sources */,
 				2032A4D7292EB20E0051966B /* SceneDelegate.swift in Sources */,
 				20A08458293003D4009FFA2B /* CharacterDeailViewController.swift in Sources */,
 				20A08444292EC414009FFA2B /* CastModel.swift in Sources */,
+				203F2967293793B4007FB4A9 /* Data.xcdatamodeld in Sources */,
 				20A08455292FFE86009FFA2B /* EpisodeTableViewCell.swift in Sources */,
+				203F298F2939326E007FB4A9 /* AddOrUpdateVC.swift in Sources */,
 				200722DE2933BCBE00A32AD4 /* CellInterface.swift in Sources */,
 				20A08440292EC381009FFA2B /* IMDBViewController.swift in Sources */,
 				20A0843B292EC337009FFA2B /* CastListViewController.swift in Sources */,
@@ -535,6 +567,19 @@
 			productName = MaterialActivityIndicator;
 		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		203F2965293793B4007FB4A9 /* Data.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				203F2966293793B4007FB4A9 /* Data.xcdatamodel */,
+			);
+			currentVersion = 203F2966293793B4007FB4A9 /* Data.xcdatamodel */;
+			path = Data.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2032A4C9292EB20E0051966B /* Project object */;
 }
